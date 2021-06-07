@@ -34,7 +34,7 @@ async function transferFund(sendersData, recieverData, amountToSend) {
                 "gas": 21000,
                 "gasPrice": gasPrices.low * 1000000000,
                 "nonce": nonce,
-                "chainId": 4 // EIP 155 chainId - mainnet: 1, rinkeby: 4
+                "chainId": 4 
             };
             const transaction = new EthereumTx(details, {chain: 'rinkeby'});
             let privateKey1 = '0c5f2d7010723717e5c5f4c3210cede7574fff51fb7b3391f1ba60de8a06bb88';
