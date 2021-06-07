@@ -8,7 +8,7 @@ const User =require('./models/users')
 const userRouter =require('./router/user')
 const auth =require ('./middleware/auth')
 const app = express()
-const port = process.env.PORT || 5454
+const port = process.env.PORT || 4545
 app.use(express.json())
 app.use(userRouter)
 
