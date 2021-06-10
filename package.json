@@ -13,7 +13,9 @@
   "dependencies": {
     "axios": "^0.21.1",
     "bcryptjs": "^2.4.3",
+    "ethereum-address": "^0.0.4",
     "ethereumjs-tx": "^2.1.1",
+    "ethereumjs-wallet": "^1.0.1",
     "express": "^4.17.1",
     "jsonwebtoken": "^8.5.1",
     "mongodb": "^3.6.8",
